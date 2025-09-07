@@ -82,7 +82,7 @@ nav > p > a:hover {
 
 main {
     max-width: 800px;
-    min-width: 400px;
+    min-width: 320px;
     margin: auto;
     background-color: white;
     padding: 20px;
@@ -108,6 +108,7 @@ article > p {
     padding: 15px;
     text-indent: 20px;
     line-height: 1.5em;
+    text-align: justify;
 }
 
 p > strong {
@@ -126,6 +127,11 @@ article > p > a::after {
 }
 
 article > img {
+    display: block;
+    margin: auto;
+}
+
+.imagem {
     display: block;
     margin: auto;
 }
@@ -168,6 +174,7 @@ aside > p {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px;
     text-indent: 15px;
+    text-align: justify;
 }
 
 
